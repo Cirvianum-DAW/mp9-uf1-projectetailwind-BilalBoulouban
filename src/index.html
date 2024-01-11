@@ -6,11 +6,31 @@
     <title>Tailwind CSS with Parcel</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <button
-      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-    >
-      Click me
-    </button>
+  <body class="bg-gray-100 font-sans">
+    <nav class="bg-purple-800 text-white p-1">
+      <div class="container mx-auto">
+        <ul class="flex justify-between items-center p-8">
+          <li>
+            <a href="#" class="text-lg font-semibold hover:text-blue-300">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-lg font-semibold hover:text-blue-300">Categories</a>
+          </li>
+          <li>
+            <a href="#" class="text-lg font-semibold hover:text-blue-300">Ubicacio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="text-center mt-8">
+      <h1 class="text-6xl text-purple-700">B&B-COFFEE</h1>
+      <h2 class="text-4xl text-blue-800">Cafeteria & Pastisseria</h2>
+      <img
+        src="../src/img/pexels-lisa-fotios-1833320.jpg"
+        class="mt-10 w-88 h-auto border-4 rounded-lg"
+        alt="Cafetería B&B-COFFEE"
+      />
+  </header>
+    
   </body>
 </html>

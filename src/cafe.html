@@ -1,63 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body class="bg-gray-100 font-sans">
-    <nav class="bg-amber-800 text-white p-1">
-      <div class="container mx-auto">
-        <ul class="flex justify-between items-center p-8">
-          <li>
-            <a href="index.html" class="text-lg font-semibold hover:text-blue-300">Home</a>
-          </li>
-          <li>
-            <a href="categoria.html" class="text-lg font-semibold hover:text-blue-300">Categories</a>
-          </li>
-          <li>
-            <a href="ubicacio.html" class="text-lg font-semibold hover:text-blue-300">Ubicacio</a>
-          </li>
-        </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="bg-gray-100 font-sans">
+  <nav class="bg-amber-800 text-white p-1">
+    <div class="container mx-auto">
+      <ul class="flex justify-between items-center p-8">
+        <li>
+          <a href="index.html" class="text-lg font-semibold hover:text-blue-300">Home</a>
+        </li>
+        <li>
+          <a href="categoria.html" class="text-lg font-semibold hover:text-blue-300">Categories</a>
+        </li>
+        <li>
+          <a href="ubicacio.html" class="text-lg font-semibold hover:text-blue-300">Ubicacio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <header class="text-center mt-8">
+    <h1 class="text-4xl font-bold">Welcome to Our Cofee Shop!</h1>
+  </header>
+
+  <!-- Sección de Coffee -->
+  <section class="container mx-auto mt-8">
+    <h2 class="text-2xl font-semibold mb-4">Our Coffee</h2>
+    <!-- Coffee 1 -->
+    <div class="coffee-item flex items-center justify-between mt-8">
+      <img src="/src/img/cafe/pexels-pratik-gupta-2748538.jpg" alt="Black Coffee" class="w-2/5 rounded-lg">
+      <div class="ml-8">
+        <h3 class="text-2xl font-semibold mb-2">Black Coffee</h3>
+        <p class="text-gray-600 leading-relaxed">Our Black Coffee is a robust blend of Central and South American beans.
+          Perfect for those who appreciate the pure flavor of coffee without any additives.</p>
       </div>
-    </nav>
+    </div>
 
-    <header class="text-center mt-8">
-      <h1 class="text-4xl font-bold">Welcome to Our Coffee Shop!</h1>
-    </header>
-
-    <!-- Sección de Cafés -->
-    <section class="container mx-auto mt-8">
-      <h2 class="text-2xl font-semibold mb-4">Our Coffees</h2>
-
-      <div class="coffee-item">
-        <img src="/src/img/cafe/pexels-gül-işık-2615323.jpg" alt="Special Blend" width="100" height="100">
-        <div>
-          <h3 class="text-xl font-semibold">Special Blend</h3>
-          <p class="text-gray-600">A unique blend of premium coffee beans.</p>
-        </div>
+    <!-- Coffee 2 -->
+    <div class="coffee-item flex items-center justify-between mt-8">
+      <img src="/src/img/cafe/pexels-valeriia-miller-3020919.jpg" alt="Vanilla Latte" class="w-2/5 rounded-lg">
+      <div class="ml-8">
+        <h3 class="text-2xl font-semibold mb-2">Vanilla Latte</h3>
+        <p class="text-gray-600 leading-relaxed">Our Vanilla Latte combines smooth espresso with a hint of vanilla. This
+          sweet and creamy drink is perfect for those who love a touch of sweetness in their coffee.</p>
       </div>
-  
-      <!-- Café 2 -->
-      <div class="coffee-item">
-        <img src="/src/img/cafe/pexels-pratik-gupta-2748538.jpg" alt="Vanilla Latte" width="100" height="100">
-        <div>
-          <h3 class="text-xl font-semibold">Vanilla Latte</h3>
-          <p class="text-gray-600">Smooth espresso with a hint of vanilla.</p>
-        </div>
-      </div>
-       <!-- Café 3 -->
-       <div class="coffee-item">
-        <img src="/src/img/cafe/pexels-valeriia-miller-3020919.jpg" alt="Vanilla Latte" width="100" height="100">
-        <div>
-          <h3 class="text-xl font-semibold">Vanilla Latte</h3>
-          <p class="text-gray-600">Smooth espresso with a hint of vanilla.</p>
-        </div>
-      </div>
+    </div>
 
-      <!-- Puedes agregar más cafés siguiendo la misma estructura -->
+    <!-- Coffee 3 -->
+    <div class="coffee-item flex items-center justify-between mt-8">
+      <img src="/src/img/cafe/04BBF290-02E4-4D86-8BE1-DF0C4F105472.jpeg" alt="Cappuccino" class="w-2/5 rounded-lg">
+      <div class="ml-8">
+        <h3 class="text-2xl font-semibold mb-2">Cappuccino</h3>
+        <p class="text-gray-600 leading-relaxed">Our Cappuccino is a balanced blend of espresso, steamed milk, and
+          froth. This classic Italian coffee drink is perfect for those who enjoy a creamy texture and a strong coffee
+          flavor.</p>
+      </div>
+    </div>
 
-    </section>
-  </body>
+    <!-- Coffee 4 -->
+    <div class="coffee-item flex items-center justify-between mt-8">
+      <img src="/src/img/cafe/pexels-karolina-grabowska-4226806.jpg" alt="Espresso" class="w-2/5 rounded-lg">
+      <div class="ml-8">
+        <h3 class="text-2xl font-semibold mb-2">Espresso</h3>
+        <p class="text-gray-600 leading-relaxed">Our Espresso is a rich and full-bodied coffee with a strong flavor and
+          a smooth finish. It's made by forcing a small amount of nearly boiling water under pressure through finely
+          ground coffee beans.</p>
+      </div>
+    </div>
+    <!-- Add more cakes following the same structure -->
+
+  </section>
+</body>
+
 </html>
